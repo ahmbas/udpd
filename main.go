@@ -14,7 +14,7 @@ func main() {
 
 	app := cli.NewApp()
 	app.Name = "udpd"
-	app.Version = "1.1.1"
+	app.Version = "1.0.0"
 	app.Usage = "Simple AF UDP proxy server"
 
 	app.Flags = []cli.Flag{
